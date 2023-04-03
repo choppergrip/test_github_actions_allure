@@ -1,0 +1,1 @@
+[{"values":["Chrome"],"name":"BROWSER"},{"values":["True"],"name":"HEADLESS_RUN"},{"values":["https://digital-twin.staging.dexory.net/login"],"name":"BASE_URL"},{"values":["staging"],"name":"ENV"},{"values":["1280 740"],"name":"SCREEN_RESOLUTION"}]
