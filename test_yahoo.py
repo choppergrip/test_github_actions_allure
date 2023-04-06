@@ -8,7 +8,10 @@ from selenium.webdriver.common.by import By
 def test_google_button_name():
     # Set up the webdriver
     driver = webdriver.Remote(
-        command_executor=f"http://{os.getenv('SELENIUM') or 'selenium'}:4444")
+        command_executor=f"http://{os.getenv('SELENIUM') or 'selenium'}:4444",
+        desired_capabilities={
+            "browserName": os.getenv('BROWSER'),
+        })
 
     # Open Google
     driver.get("https://uk.yahoo.com/")
